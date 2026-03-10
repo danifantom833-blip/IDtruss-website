@@ -3,57 +3,250 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - IDtruss Ltd</title>
+  <meta name="description" content="Portfolio of completed projects by IDtruss Ltd - Residential construction, commercial buildings, structural designs, roof truss systems, and renovations.">
+  <meta name="keywords" content="construction portfolio, completed projects, residential construction, commercial projects, renovation portfolio">
+  <title>Portfolio | IDtruss Ltd | Completed Construction Projects</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="navbar">
-    <div class="logo">IDtruss Ltd</div>
+    <div class="logo">
+      <span class="logo-icon">⚙️</span> IDtruss Ltd
+    </div>
     <nav class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="services.html">Services</a>
-      <a href="projects.html">Projects</a>
+      <a href="projects.html" class="active">Projects</a>
       <a href="contact.html">Contact</a>
     </nav>
-    <div class="nav-toggle">&#9776;</div>
+    <div class="nav-toggle">☰</div>
   </header>
 
-  <section class="projects">
-    <h2>Completed Projects</h2>
-    <div class="project-grid">
-      <div class="project-item">
-        <img src="IMG_1922.jpg" alt="Multipurpose hall">
-        <div class="overlay">
-          <strong>Multipurpose hall</strong>
-          <p>Large-span structural space.</p>
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Project Portfolio</h1>
+      <p>A Showcase of Our Expertise and Craftsmanship</p>
+    </div>
+  </section>
+
+  <section class="projects-gallery">
+    <div class="container">
+      <p class="intro-text">Explore a selection of our completed projects across residential, commercial, and specialized construction. Each project demonstrates our commitment to quality, innovation, and client satisfaction.</p>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="renovation">Renovation</button>
+      </div>
+
+      <div class="project-grid-detailed">
+        <div class="project-card" data-category="residential">
+          <div class="project-image">
+            <img src="IMG_3360.JPG" alt="Urban Residential - Modern residence with contemporary design">
+          </div>
+          <div class="project-info">
+            <h3>Urban Residence</h3>
+            <p class="project-category">Residential Construction</p>
+            <p>Modern residential building with sustainable design principles and contemporary aesthetics. Featuring open-concept living spaces, energy-efficient systems, and premium finishes.</p>
+            <div class="project-details">
+              <span>📐 3,500 sq ft</span>
+              <span>📅 12 months</span>
+              <span>⭐ Completed 2024</span>
+            </div>
+            <a href="#" class="btn-secondary">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="commercial">
+          <div class="project-image">
+            <img src="IMG_1916.jpg" alt="Multipurpose Hall - Large-span structural design">
+          </div>
+          <div class="project-info">
+            <h3>Multipurpose Hall</h3>
+            <p class="project-category">Commercial Construction</p>
+            <p>Large-span structural space featuring advanced roof truss engineering. Engineered for flexibility with column-free interior, ideal for events, exhibitions, and gatherings.</p>
+            <div class="project-details">
+              <span>📐 12,000 sq ft</span>
+              <span>📅 18 months</span>
+              <span>⭐ Completed 2023</span>
+            </div>
+            <a href="#" class="btn-secondary">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="commercial">
+          <div class="project-image">
+            <img src="IMG_5732.jpg" alt="Corporate Plaza - Modern office and retail complex">
+          </div>
+          <div class="project-info">
+            <h3>Corporate Plaza</h3>
+            <p class="project-category">Commercial Construction</p>
+            <p>State-of-the-art office space with mixed-use development. Features modern office floors, retail spaces, and integrated parking with smart building systems.</p>
+            <div class="project-details">
+              <span>📐 25,000 sq ft</span>
+              <span>📅 24 months</span>
+              <span>⭐ Completed 2024</span>
+            </div>
+            <a href="#" class="btn-secondary">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="residential">
+          <div class="project-image">
+            <img src="IMG_1917.jpg" alt="Exclusive Modern Residence - Contemporary duplex design">
+          </div>
+          <div class="project-info">
+            <h3>Exclusive Modern Residence</h3>
+            <p class="project-category">Residential Construction</p>
+            <p>State-of-the-art duplex with premium finishes and luxury design. Showcasing advanced structural engineering and contemporary architecture.</p>
+            <div class="project-details">
+              <span>📐 5,200 sq ft</span>
+              <span>📅 15 months</span>
+              <span>⭐ Completed 2024</span>
+            </div>
+            <a href="#" class="btn-secondary">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="renovation">
+          <div class="project-image">
+            <img src="IMG_7086.jpg" alt="Residence Renovation - Complete home remodeling project">
+          </div>
+          <div class="project-info">
+            <h3>Heritage Home Renovation</h3>
+            <p class="project-category">Renovation & Remodeling</p>
+            <p>Complete renovation transforming a historic home with modern amenities while preserving original character. New systems, layouts, and contemporary finishes.</p>
+            <div class="project-details">
+              <span>📐 4,000 sq ft</span>
+              <span>📅 10 months</span>
+              <span>⭐ Completed 2023</span>
+            </div>
+            <a href="#" class="btn-secondary">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="residential">
+          <div class="project-image">
+            <img src="IMG_8717.jpg" alt="Family Residence - Custom built home">
+          </div>
+          <div class="project-info">
+            <h3>Custom Family Residence</h3>
+            <p class="project-category">Residential Construction</p>
+            <p>Custom-built family home featuring spacious living areas, modern kitchen, multiple bedrooms, and outdoor living space. Built with quality materials and expert craftsmanship.</p>
+            <div class="project-details">
+              <span>📐 4,800 sq ft</span>
+              <span>📅 14 months</span>
+              <span>⭐ Completed 2024</span>
+            </div>
+            <a href="#" class="btn-secondary">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="commercial">
+          <div class="project-image">
+            <img src="IMG_8742.jpg" alt="Retail Complex - Modern shopping center">
+          </div>
+          <div class="project-info">
+            <h3>Modern Retail Complex</h3>
+            <p class="project-category">Commercial Construction</p>
+            <p>Multi-tenant retail complex with modern design and efficient layout. Features flexible retail spaces, common areas, and customer parking facilities.</p>
+            <div class="project-details">
+              <span>📐 18,500 sq ft</span>
+              <span>📅 16 months</span>
+              <span>⭐ Completed 2023</span>
+            </div>
+            <a href="#" class="btn-secondary">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="renovation">
+          <div class="project-image">
+            <img src="IMG_9919.jpg" alt="Commercial Renovation - Office space modernization">
+          </div>
+          <div class="project-info">
+            <h3>Office Space Modernization</h3>
+            <p class="project-category">Renovation & Remodeling</p>
+            <p>Complete office renovation transforming outdated space into a modern work environment. Updated HVAC, electrical, flooring, and open-plan layout.</p>
+            <div class="project-details">
+              <span>📐 6,000 sq ft</span>
+              <span>📅 8 months</span>
+              <span>⭐ Completed 2024</span>
+            </div>
+            <a href="#" class="btn-secondary">View Details</a>
+          </div>
         </div>
       </div>
-      <div class="project-item">
-        <img src="IMG_5732.jpg" alt="Bridge Renovation">
-        <div class="overlay">
-          <strong>Corporate Plaza</strong>
-          <p>State-of-the-art office space.</p>
+    </div>
+  </section>
+
+  <section class="portfolio-stats">
+    <div class="container">
+      <h2>Our Track Record</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">500+</div>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100+</div>
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">20+</div>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">99%</div>
+          <p>Client Satisfaction</p>
         </div>
       </div>
-      <div class="project-item">
-        <img src="IMG_7086.jpg" alt="Corporate Plaza">
-        <div class="overlay">
-          <strong>Exclusive mordern residence</strong>
-          <p>State-of-the-art duplex.</p>
-        </div>
-      </div>
-      <!-- Additional project cards can be added here -->
+    </div>
+  </section>
+
+  <section class="contact-cta">
+    <div class="container">
+      <h2>Impressed by Our Work?</h2>
+      <p>Let's discuss how we can help bring your project vision to life</p>
+      <a href="contact.html" class="btn btn-primary">Start Your Project</a>
     </div>
   </section>
 
   <footer class="footer">
-    <div class="footer-content">
-      <p>&copy; 2026 IDtruss Ltd</p>
-      <div class="social">
-        <a href="#">Twitter</a> |
-        <a href="#">LinkedIn</a> |
-        <a href="#">Facebook</a>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>IDtruss Ltd</h4>
+          <p>Professional structural engineering and construction services</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p>📧 info@idtruss.com</p>
+          <p>📞 (555) 123-4567</p>
+          <p>📍 123 Construction Ave, Building City, ST 12345</p>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" title="Twitter">🐦</a>
+            <a href="#" title="LinkedIn">💼</a>
+            <a href="#" title="Facebook">👥</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 IDtruss Ltd. All rights reserved.</p>
       </div>
     </div>
   </footer>
